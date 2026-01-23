@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "1c-enterprise": {
+      "url": "http://localhost/unf/hs/mcp/",
+      "headers": {
+        "Authorization": "Basic dGVzdDp0ZXN0",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}
