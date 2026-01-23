@@ -12,18 +12,6 @@ inclusion: always
 - Use UTF-8 encoding exclusively (never Windows-1251/CP1251)
 - Follow metadata-driven architecture with managed forms (управляемые формы)
 
-### MCP Tools - MANDATORY Before Code Changes
-
-**ALWAYS use MCP tools to validate API usage before writing or modifying code:**
-
-1. `mcp_1c_platform_search` - Search for methods, properties, types by name
-2. `mcp_1c_platform_getMembers` - Get complete list of methods/properties for a type
-3. `mcp_1c_platform_getMember` - Get detailed info about specific method/property
-4. `mcp_1c_platform_info` - Get detailed information about API element
-5. `mcp_1c_platform_getConstructors` - Get constructors for creating objects
-
-**Workflow:** Search → Verify → Implement. Never guess API names or signatures.
-
 ### Code Style Rules
 
 **Naming:** PascalCase for all identifiers (procedures, functions, variables, parameters)
